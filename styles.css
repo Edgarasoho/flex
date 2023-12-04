@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #d4f1e6;
+  /* position: absolute; */
+}
+h1 {
+  color: #1f1f1f;
+  text-align: center;
+  /* margin: 60px; */
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+}
+.containerImg {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 43.241px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  background: d4f1e6;
+  align-items: center;
+  gap: 2rem;
+  /* padding: 56px 60px; */
+}
+.imgLast {
+  display: flex;
+
+  gap: 2rem;
+}
