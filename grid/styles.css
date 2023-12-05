@@ -1,0 +1,41 @@
+.box {
+  display: grid;
+  padding: 3rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 15rem 15rem 15rem;
+  gap: 1rem;
+}
+.grid-Item {
+  background: green;
+  color: white;
+}
+.first {
+  text-align: center;
+  border-radius: 1rem;
+  background-color: deeppink;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.second {
+  color: brown;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: darkgrey;
+  grid-column: 2/1;
+  grid-row: 2/3;
+}
+.thr {
+  text-align: center;
+  border-radius: 1rem;
+  color: black;
+  background-color: rgba(43, 255, 0, 0.461);
+  grid-row: 3/5;
+}
+.big {
+  border-radius: 1rem;
+  text-align: center;
+  color: blue;
+  background-color: bisque;
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
